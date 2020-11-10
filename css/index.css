@@ -1,0 +1,237 @@
+*{
+	box-sizing: border-box;
+}
+.row .min{
+	background: #d3d9e042 !important;
+	width:400px;
+	height: 100%;
+	box-shadow: 0 1px 6px;
+}
+.row .min .login .profile .img{
+	width: 200px;
+	height: 200px;
+	margin: auto;
+}
+.row .min .login .profile .img img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.row .min .header{
+	display: flex;
+	justify-content:space-between;
+	background: #ebedee00;
+	box-shadow: 0px 0px 4px #444;
+	padding:14px;
+}
+.row .min .header .name-pic .img{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.row .min .header .name-pic .img img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	cursor: pointer;
+}
+.row .min .header .setting .icon{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: #78808859;
+	overflow: hidden;
+}
+..row .min .header .setting .icon i{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.row .min .main-section{
+	height:523px;
+	overflow-y: scroll;
+}
+.row .min .src-section .search{
+	width: 100%;
+	height: 35px;
+	background: #4b4f5324;
+	border-radius: 50px;
+}
+.row .min .src-section .search input{
+	border: none;
+	width: 90%;
+	height: 100%;
+	border-radius: 50px;
+	background: #98a1ab00;
+}
+.row .min .src-section .search input:focus{
+	border: none;
+	align-items: center
+}
+.row .min .friends .img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.row .min .friends .img img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.row .min .friends .imgs{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.row .min .friends .imgs img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.row .min .friends{
+	transition: 2s;
+	cursor: pointer;
+}
+.row .min .friends:hover{
+	background: #a9b2bd42;
+}
+
+.row .min .navbar{
+	position: fixed;
+	background: #e0e7ef;
+	width: 400px;
+}
+.row .min .about{
+	padding-top: 80px;
+}
+
+.row .min .pic .img{
+	width: 170px;
+	height: 170px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: auto;
+}
+.row .min .pic .img img{
+	width: 100%;
+	height: 100%;
+	
+}
+.row .min .about .div1 .div2 .icon{
+	width: 30px;
+	height: 30px;
+	overflow: hidden;
+	border-radius: 50%;
+	align-items: center;
+	background: #98a1ab;
+}
+.row .min .about .div1 .div2 .icon i{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.row .min .about .div1 .div2{
+	transition: 2s;
+	cursor: pointer;
+}
+.row .min .about .div1 .div2:hover{
+	background: rgba(234, 218, 218, 0.87);
+}
+
+
+
+.row .min .main-section .s .owl-carousel .item .online:after{
+	content: "";
+	width: 8px;
+	height: 8px;
+	position: absolute;
+	background: #459f2b;
+	overflow: hidden;
+	border-radius: 5px;
+	top: 30px;
+	left: 29px;
+}
+.row .min .main-section .s .main .friends{
+	position: relative;
+}
+.row .min .main-section .s .main .friends .img::after{
+	content: "";
+	width: 10px;
+	height: 10px;
+	background: green;
+	position: absolute;
+	border-radius: 5px;
+	overflow: hidden;
+	top: 32px;
+	left: 40px;
+}
+
+
+/************story**************/
+.row .min .main-section .s .row .col-md-6 .item{
+	height: 26vh;
+	width: 18vh;
+	margin: auto;
+	position: relative;
+	border-radius: 10px;
+	overflow: hidden;
+	.box-shadow: 0px 2px 3px;
+	transition: 1s;
+}
+
+.row .min .main-section .s .row .col-md-6 .item .overlay{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.400);
+	z-index: 1;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-direction: column;
+	padding: 3px 3px;
+	cursor: pointer;
+}
+
+.row .min .main-section .s .row .col-md-6 .item .overlay .profile{
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 2px solid #3ca5e2;
+	background: #fff;
+}
+
+.row .min .main-section .s .row .col-md-6 .item .overlay .profile img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 50px;
+	padding: 2px;
+}
+.row .min .main-section .s .row .col-md-6 .item .overlay h4{
+	color: #fff;
+	font-weight: 500;
+	font-size: 0.88rem;
+	width: 80%;
+	margin-left: 5px;
+	padding-bottom: 5px;
+}
+.row .min .main-section .s .row .col-md-6 .item .story-image{
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.row .min .main-section .s .row .col-md-6 .item .story-image img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+

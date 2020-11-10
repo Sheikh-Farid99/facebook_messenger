@@ -1,0 +1,19 @@
+header.card-header{
+	border-radius: 0 !important;
+	background: #19c119!important;
+	border-bottom: 1px solid #fff  !important;
+	box-shadow:0 0 7px#0f330399;
+}
+.row{
+	margin: 0;
+	border: 1px solid #fff;
+}
+.reg{
+	background:#f0f0f0 !important;
+	padding: 25px;
+	padding-bottom: 10px;
+	box-shadow: 0 0 7px #b7b2b6;
+}
+.form-group .form-control:focus{
+	border: none;
+}
